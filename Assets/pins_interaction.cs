@@ -11,6 +11,7 @@ public class pins_interaction : MonoBehaviour
     private bool bowling_flag;
     public AudioClip wallSound;
     public AudioClip pinSound;
+    bool sflag_pin1, sflag_pin2, sflag_pin3, sflag_pin4;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,12 @@ public class pins_interaction : MonoBehaviour
         pin4 = GameObject.Find("pin4");
         textbox = GameObject.Find("pin_score").GetComponent<TextMesh>();
         bowling_flag = true;
+
+        sflag_pin1 = true;
+        sflag_pin2 = true;
+        sflag_pin3 = true;
+        sflag_pin4 = true;
+
     }
 
     // Update is called once per frame
@@ -52,23 +59,39 @@ public class pins_interaction : MonoBehaviour
     {
         score = 0;
         if (isDown(pin1)){
-            AudioSource.PlayClipAtPoint(pinSound, gameObject.transform.position, 1);
+            if (sflag_pin1)
+            {
+                AudioSource.PlayClipAtPoint(pinSound, gameObject.transform.position, 1);
+                sflag_pin1 = false;
+            }
             score += 1;
         }
         
         if (isDown(pin2))
         {
-            AudioSource.PlayClipAtPoint(pinSound, gameObject.transform.position, 1);
+            if (sflag_pin2)
+            {
+                AudioSource.PlayClipAtPoint(pinSound, gameObject.transform.position, 1);
+                sflag_pin2 = false;
+            }
             score += 1;
         }
         if (isDown(pin3))
         {
-            AudioSource.PlayClipAtPoint(pinSound, gameObject.transform.position, 1);
+            if (sflag_pin3)
+            {
+                AudioSource.PlayClipAtPoint(pinSound, gameObject.transform.position, 1);
+                sflag_pin3 = false;
+            }
             score += 1;
         }
         if (isDown(pin4))
         {
-            AudioSource.PlayClipAtPoint(pinSound, gameObject.transform.position, 1);
+            if (sflag_pin4)
+            {
+                AudioSource.PlayClipAtPoint(pinSound, gameObject.transform.position, 1);
+                sflag_pin4 = false;
+            }
             score += 1;
         }
         
