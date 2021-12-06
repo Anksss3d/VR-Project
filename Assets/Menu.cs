@@ -7,9 +7,15 @@ public class Menu : MonoBehaviour
 {   
     private AudioSource audio;
 
+    public AudioClip startMusic;
+
     private void Awake(){
         DontDestroyOnLoad(transform.gameObject);
         audio = GetComponent<AudioSource>();
+    }
+
+    public void PlayStartButtonMusic(){
+        AudioSource.PlayClipAtPoint(startMusic, transform.position, 1);
     }
 
 
