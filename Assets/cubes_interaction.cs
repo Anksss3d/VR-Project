@@ -9,6 +9,7 @@ public class cubes_interaction : MonoBehaviour
     GameObject grid_red, grid_blue, grid_green, cube_red, cube_blue, cube_green, door;
     bool flag_red, flag_green, flag_blue;
     Vector3 ini_red, ini_blue, ini_green;
+    public GameObject explosionParticles;
 
 
     // Start is called before the first frame update
@@ -47,6 +48,10 @@ public class cubes_interaction : MonoBehaviour
                 flag_blue = true;
                 Destroy(cube_blue, 0.5f);
                 Destroy(grid_blue, 0.5f);
+                GameObject gObject = Instantiate (explosionParticles, transform.position, Quaternion.identity) as GameObject;
+                Destroy (gObject, 1);
+                
+
                 //cube_blue.Destroy();
                 //translateGrid(grid_blue);
             }
@@ -58,6 +63,8 @@ public class cubes_interaction : MonoBehaviour
                 flag_green = true;
                 Destroy(cube_green, 0.5f);
                 Destroy(grid_green, 0.5f);
+                GameObject gObject = Instantiate (explosionParticles, transform.position, Quaternion.identity) as GameObject;
+                Destroy (gObject, 1);
             }
         }
         if (!flag_red)
@@ -67,6 +74,8 @@ public class cubes_interaction : MonoBehaviour
                 flag_red = true;
                 Destroy(cube_red, 0.5f);
                 Destroy(grid_red, 0.5f);
+                GameObject gObject = Instantiate (explosionParticles, transform.position, Quaternion.identity) as GameObject;
+                Destroy (gObject, 1);
             }
         }
 
