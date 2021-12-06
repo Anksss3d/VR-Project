@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundMask;
 
     public float jumpHeight = 2f;
+    private float deadzone = 0.25f;
 
     bool isGrounded;
     // Start is called before the first frame update
@@ -32,10 +33,14 @@ public class PlayerMovement : MonoBehaviour
             velocity.y = -2f;
         }
 
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+        
+        Vector2 touchCoords = OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad);
 
-        Vector3 move = transform.right * x + transform.forward* z;
+
+//        float x = Input.GetAxis("Horizontal");
+//        float z = Input.GetAxis("Vertical");
+
+        Vector3 move = transform.right * touchCoords.x + transform.forward* touchCoords.y;
 
         controller.Move(move * speed * Time.deltaTime);
 
