@@ -1122,7 +1122,7 @@ Transform:
   - {fileID: 1088677795}
   - {fileID: 627853708}
   m_Father: {fileID: 775563440}
-  m_RootOrder: 12
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &547121502 stripped
 Transform:
@@ -2801,6 +2801,7 @@ Transform:
   m_LocalPosition: {x: -3.705724, y: 24.998825, z: 11.288133}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 462850805}
   - {fileID: 1483673329}
   - {fileID: 170867390}
   - {fileID: 116238977}
@@ -2813,7 +2814,6 @@ Transform:
   - {fileID: 552125693}
   - {fileID: 1195306654}
   - {fileID: 893197831}
-  - {fileID: 462850805}
   - {fileID: 1451167390}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -2835,11 +2835,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 494348, guid: db49253e161c21440b7ccf6d59865098, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.0170975
+      value: 3.839033
       objectReference: {fileID: 0}
     - target: {fileID: 494348, guid: db49253e161c21440b7ccf6d59865098, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.255835
+      value: 0.96095246
+      objectReference: {fileID: 0}
+    - target: {fileID: 494348, guid: db49253e161c21440b7ccf6d59865098, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.76519
       objectReference: {fileID: 0}
     - target: {fileID: 494348, guid: db49253e161c21440b7ccf6d59865098, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2847,11 +2851,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 494348, guid: db49253e161c21440b7ccf6d59865098, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.17
+      value: 8.2059
       objectReference: {fileID: 0}
     - target: {fileID: 494348, guid: db49253e161c21440b7ccf6d59865098, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.64
+      value: -9.5827
       objectReference: {fileID: 0}
     - target: {fileID: 494348, guid: db49253e161c21440b7ccf6d59865098, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4777,7 +4781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 439240, guid: 548a40efc092c6f408cc4d1691b171cc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.68
+      value: -9.18
       objectReference: {fileID: 0}
     - target: {fileID: 439240, guid: 548a40efc092c6f408cc4d1691b171cc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6102,7 +6106,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 1.5
+  m_Height: 2
   m_Radius: 0.15
   m_SlopeLimit: 45
   m_StepOffset: 0.75
@@ -7410,8 +7414,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893304396}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.532772, y: 4.829769, z: -16.935432}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -6.762, y: 5.65, z: -15.165}
+  m_LocalScale: {x: 0.76519, y: 0.76519, z: 0.76519}
   m_Children:
   - {fileID: 549964933}
   - {fileID: 156678653}
