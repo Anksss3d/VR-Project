@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 156678656}
   - component: {fileID: 156678655}
   - component: {fileID: 156678654}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -693,7 +693,7 @@ GameObject:
   - component: {fileID: 174759071}
   - component: {fileID: 174759070}
   - component: {fileID: 174759069}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -919,7 +919,7 @@ GameObject:
   - component: {fileID: 194413591}
   - component: {fileID: 194413590}
   - component: {fileID: 194413589}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: VR Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1144,7 +1144,7 @@ GameObject:
   - component: {fileID: 549964930}
   - component: {fileID: 549964929}
   - component: {fileID: 549964934}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1536,9 +1536,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 462850805}
     m_Modifications:
+    - target: {fileID: 127260, guid: ac7a01ca06ca9044eb15b32cb7a936f8, type: 3}
+      propertyPath: m_Name
+      value: glass_door_remove
+      objectReference: {fileID: 0}
     - target: {fileID: 141970, guid: ac7a01ca06ca9044eb15b32cb7a936f8, type: 3}
       propertyPath: m_Name
-      value: gass_door
+      value: glass_door
       objectReference: {fileID: 0}
     - target: {fileID: 417258, guid: ac7a01ca06ca9044eb15b32cb7a936f8, type: 3}
       propertyPath: m_RootOrder
@@ -1606,7 +1610,7 @@ GameObject:
   - component: {fileID: 649783369}
   - component: {fileID: 649783368}
   - component: {fileID: 649783367}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1832,7 +1836,7 @@ GameObject:
   - component: {fileID: 679903861}
   - component: {fileID: 679903863}
   - component: {fileID: 679903862}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Right Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1848,7 +1852,7 @@ Transform:
   m_GameObject: {fileID: 679903859}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1045848416}
   m_RootOrder: 2
@@ -1989,7 +1993,7 @@ GameObject:
   - component: {fileID: 690930956}
   - component: {fileID: 690930955}
   - component: {fileID: 690930954}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2307,7 +2311,7 @@ GameObject:
   - component: {fileID: 719592241}
   - component: {fileID: 719592243}
   - component: {fileID: 719592242}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: box_score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2405,7 +2409,7 @@ GameObject:
   - component: {fileID: 751746262}
   - component: {fileID: 751746261}
   - component: {fileID: 751746260}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2631,7 +2635,7 @@ GameObject:
   - component: {fileID: 758919790}
   - component: {fileID: 758919792}
   - component: {fileID: 758919791}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Left Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2647,7 +2651,7 @@ Transform:
   m_GameObject: {fileID: 758919788}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 1045848416}
   m_RootOrder: 1
@@ -2982,7 +2986,7 @@ GameObject:
   - component: {fileID: 838572844}
   - component: {fileID: 838572843}
   - component: {fileID: 838572842}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3759,7 +3763,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1045848416}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: Camera Offset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3812,7 +3816,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055339636}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.81, y: 0.43, z: 0}
+  m_LocalPosition: {x: 3.5, y: 0.43, z: 0}
   m_LocalScale: {x: 0.27265152, y: 0.27265152, z: 0.27265152}
   m_Children: []
   m_Father: {fileID: 1694755534}
@@ -3924,7 +3928,7 @@ GameObject:
   - component: {fileID: 1066650059}
   - component: {fileID: 1066650058}
   - component: {fileID: 1066650057}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4167,7 +4171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 449830, guid: 04109e82c0d966447966dba624e3821b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.7
+      value: 3.97898
       objectReference: {fileID: 0}
     - target: {fileID: 449830, guid: 04109e82c0d966447966dba624e3821b, type: 3}
       propertyPath: m_LocalScale.y
@@ -4241,7 +4245,7 @@ GameObject:
   - component: {fileID: 1213759616}
   - component: {fileID: 1213759615}
   - component: {fileID: 1213759614}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4469,7 +4473,7 @@ GameObject:
   - component: {fileID: 1231601086}
   - component: {fileID: 1231601085}
   - component: {fileID: 1231601084}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5017,7 +5021,7 @@ GameObject:
   - component: {fileID: 1455681930}
   - component: {fileID: 1455681932}
   - component: {fileID: 1455681931}
-  m_Layer: 9
+  m_Layer: 6
   m_Name: pin_score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5107,6 +5111,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1021652711}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1493670501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 127260, guid: ac7a01ca06ca9044eb15b32cb7a936f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 627853707}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1493670502
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493670501}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &1533004391 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 449830, guid: 04109e82c0d966447966dba624e3821b,
@@ -5281,7 +5307,7 @@ GameObject:
   - component: {fileID: 1632421688}
   - component: {fileID: 1632421687}
   - component: {fileID: 1632421686}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5558,7 +5584,7 @@ GameObject:
   - component: {fileID: 1651339284}
   - component: {fileID: 1651339283}
   - component: {fileID: 1651339282}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5870,7 +5896,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 424252, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.9665174
+      value: -4.24
       objectReference: {fileID: 0}
     - target: {fileID: 424252, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5878,7 +5904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 424252, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.971321
+      value: 6.94
       objectReference: {fileID: 0}
     - target: {fileID: 424252, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5922,7 +5948,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 452894, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.68
+      value: -1.33
       objectReference: {fileID: 0}
     - target: {fileID: 452894, guid: 4246925f0393c430189bb4ceba36dc8a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6088,8 +6114,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725982592}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 10.14, z: -6.54}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 8.455, z: -6.54}
+  m_LocalScale: {x: 1.2313, y: 1.2313, z: 1.2313}
   m_Children:
   - {fileID: 1045848416}
   m_Father: {fileID: 0}
@@ -6131,7 +6157,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  additionalHeight: 0
+  additionalHeight: 2
 --- !u!114 &1725982597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6215,7 +6241,7 @@ GameObject:
   - component: {fileID: 1828352257}
   - component: {fileID: 1828352256}
   - component: {fileID: 1828352255}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6696,7 +6722,7 @@ GameObject:
   - component: {fileID: 1866256343}
   - component: {fileID: 1866256342}
   - component: {fileID: 1866256341}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6939,7 +6965,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880012961}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.36, y: 0.43, z: 0}
+  m_LocalPosition: {x: 1.29, y: 0.43, z: 0}
   m_LocalScale: {x: 0.27265152, y: 0.27265152, z: 0.27265152}
   m_Children: []
   m_Father: {fileID: 1694755534}
@@ -7066,7 +7092,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882005491}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.43, y: 0.43, z: 0}
+  m_LocalPosition: {x: 5.68, y: 0.43, z: 0}
   m_LocalScale: {x: 0.27265152, y: 0.27265152, z: 0.27265152}
   m_Children: []
   m_Father: {fileID: 1694755534}
@@ -7178,7 +7204,7 @@ GameObject:
   - component: {fileID: 1887370352}
   - component: {fileID: 1887370351}
   - component: {fileID: 1887370350}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7401,7 +7427,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1893304397}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Balls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7456,7 +7482,7 @@ GameObject:
   - component: {fileID: 1950592913}
   - component: {fileID: 1950592912}
   - component: {fileID: 1950592911}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7719,7 +7745,7 @@ GameObject:
   - component: {fileID: 2012604075}
   - component: {fileID: 2012604074}
   - component: {fileID: 2012604073}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8109,7 +8135,7 @@ GameObject:
   - component: {fileID: 2074514863}
   - component: {fileID: 2074514862}
   - component: {fileID: 2074514861}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8337,7 +8363,7 @@ GameObject:
   - component: {fileID: 2096192677}
   - component: {fileID: 2096192676}
   - component: {fileID: 2096192675}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8602,7 +8628,7 @@ GameObject:
   - component: {fileID: 2119028792}
   - component: {fileID: 2119028791}
   - component: {fileID: 2119028790}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Ball5
   m_TagString: Untagged
   m_Icon: {fileID: 0}

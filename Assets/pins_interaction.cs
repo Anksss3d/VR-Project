@@ -78,14 +78,16 @@ public class pins_interaction : MonoBehaviour
 
     void removeObjects()
     {
-        GameObject wall = GameObject.Find("bowl_wall");
-        wall.transform.position = Vector3.Lerp(wall.transform.position, new Vector3(wall.transform.position.x, wall.transform.position.y + 2.0f, wall.transform.position.z), Time.deltaTime);
-        Destroy(wall, 5.0f);
+        
+        //Destroy(wall, 5.0f);
         for (int i = 1; i < 21; i++)
         {
             GameObject ball = GameObject.Find("Ball"+i);
-            ball.transform.position = Vector3.Lerp(ball.transform.position, new Vector3(ball.transform.position.x, ball.transform.position.y+2.0f, ball.transform.position.z), Time.deltaTime);
-            //Destroy(ball, 5.0f);
+            //ball.transform.position = Vector3.Lerp(ball.transform.position, new Vector3(ball.transform.position.x, ball.transform.position.y+2.0f, ball.transform.position.z), Time.deltaTime);
+            Destroy(ball, 2.0f);
         }
+        GameObject wall = GameObject.Find("glass_door_remove");
+        Destroy(wall, 2.0f);
+        //wall.transform.position = Vector3.Lerp(wall.transform.position, new Vector3(wall.transform.position.x, wall.transform.position.y + 2.0f, wall.transform.position.z), Time.deltaTime);
     }
 }
