@@ -9,6 +9,8 @@ public class pins_interaction : MonoBehaviour
     TextMesh textbox;
     private int score;
     private bool bowling_flag;
+    public AudioClip wallSound;
+    public AudioClip pinSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,19 +52,23 @@ public class pins_interaction : MonoBehaviour
     {
         score = 0;
         if (isDown(pin1)){
+            AudioSource.PlayClipAtPoint(pinSound, gameObject.transform.position, 1);
             score += 1;
         }
         
         if (isDown(pin2))
         {
+            AudioSource.PlayClipAtPoint(pinSound, gameObject.transform.position, 1);
             score += 1;
         }
         if (isDown(pin3))
         {
+            AudioSource.PlayClipAtPoint(pinSound, gameObject.transform.position, 1);
             score += 1;
         }
         if (isDown(pin4))
         {
+            AudioSource.PlayClipAtPoint(pinSound, gameObject.transform.position, 1);
             score += 1;
         }
         
@@ -86,6 +92,10 @@ public class pins_interaction : MonoBehaviour
             //ball.transform.position = Vector3.Lerp(ball.transform.position, new Vector3(ball.transform.position.x, ball.transform.position.y+2.0f, ball.transform.position.z), Time.deltaTime);
             Destroy(ball, 2.0f);
         }
+
+
+        AudioSource.PlayClipAtPoint(wallSound, transform.position, 1);
+
         GameObject wall = GameObject.Find("glass_door");
         Destroy(wall, 2.0f);
         //wall.transform.position = Vector3.Lerp(wall.transform.position, new Vector3(wall.transform.position.x, wall.transform.position.y + 2.0f, wall.transform.position.z), Time.deltaTime);

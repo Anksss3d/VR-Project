@@ -50,7 +50,7 @@ public class cubes_interaction : MonoBehaviour
                 Destroy(cube_blue, 0.5f);
                 Destroy(grid_blue, 0.5f);
                 AudioSource.PlayClipAtPoint(explosionClip, transform.position, 1);
-                GameObject gObject = Instantiate (explosionParticles, transform.position, Quaternion.identity) as GameObject;
+                GameObject gObject = Instantiate (explosionParticles, gameObject.transform.position, Quaternion.identity) as GameObject;
                 Destroy (gObject, 1);
                 
 
@@ -66,7 +66,7 @@ public class cubes_interaction : MonoBehaviour
                 Destroy(cube_green, 0.5f);
                 Destroy(grid_green, 0.5f);
                 AudioSource.PlayClipAtPoint(explosionClip, transform.position, 1);
-                GameObject gObject = Instantiate (explosionParticles, transform.position, Quaternion.identity) as GameObject;
+                GameObject gObject = Instantiate (explosionParticles, gameObject.transform.position, Quaternion.identity) as GameObject;
                 Destroy (gObject, 1);
             }
         }
@@ -78,7 +78,7 @@ public class cubes_interaction : MonoBehaviour
                 Destroy(cube_red, 0.5f);
                 Destroy(grid_red, 0.5f);
                 AudioSource.PlayClipAtPoint(explosionClip, transform.position, 1);
-                GameObject gObject = Instantiate (explosionParticles, transform.position, Quaternion.identity) as GameObject;
+                GameObject gObject = Instantiate (explosionParticles, gameObject.transform.position, Quaternion.identity) as GameObject;
                 Destroy (gObject, 1);
             }
         }
