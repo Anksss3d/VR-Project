@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class objects_interaction : MonoBehaviour
+public class cubes_interaction : MonoBehaviour
 {
     TextMesh textbox;
     GameObject grid_red, grid_blue, grid_green, cube_red, cube_blue, cube_green, door;
@@ -26,7 +26,7 @@ public class objects_interaction : MonoBehaviour
 
         door = GameObject.Find("glass_panel_1");
 
-        textbox = GameObject.Find("score_text").GetComponent<TextMesh>();
+        textbox = GameObject.Find("box_score").GetComponent<TextMesh>();
 
         flag_red = false;
         flag_blue = false;
@@ -110,7 +110,7 @@ public class objects_interaction : MonoBehaviour
         {
             score += 1;
         }
-        textbox.text = "Score : " + score + "/3";
+        textbox.text = "Box Score : " + score + "/3";
         if (score == 3)
         {
             float door_new_y = door.transform.position.y+2.0f;
