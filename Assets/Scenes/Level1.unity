@@ -6185,6 +6185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3fcafc8356656342b002b75cf8c062c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wallSound: {fileID: 8300000, guid: 99f9a7bed12304fc68a48f9c4d63b710, type: 3}
+  pinSound: {fileID: 8300000, guid: 13976c3053138476b83fe2b2b91aa506, type: 3}
 --- !u!1 &1781376784
 GameObject:
   m_ObjectHideFlags: 0
